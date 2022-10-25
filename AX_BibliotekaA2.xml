@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0200">
-  <fileHeader companyName="Delta Electronics, Inc." productName="DIADesigner-AX" productVersion="DIADesigner-AX 1.3" creationDateTime="2022-10-25T13:29:54.8378179" />
-  <contentHeader name="CODEYS Common Library Template" version="3.5.15.30" modificationDateTime="2022-10-25T13:29:36.5679752" organization="3S - Smart Software Solutions GmbH" author="3S - Smart Software Solutions GmbH">
-    <Comment>Library project template with all possible element types, docu and a sample project structure</Comment>
+  <fileHeader companyName="Delta Electronics, Inc." productName="DIADesigner-AX" productVersion="DIADesigner-AX 1.3" creationDateTime="2022-10-25T13:49:13.7364594" />
+  <contentHeader name="A2ServodriveLibrary" version="3.5.15.30" modificationDateTime="2022-10-25T13:49:04.3218968" organization="Induprogress sp. z o.o" author="Piotr Gliszczyński">
+    <Comment>Library for using A2 via CiA402. For now enum for error codes processing is available. </Comment>
     <coordinateInfo>
       <fbd>
         <scaling x="1" y="1" />
@@ -17,12 +17,12 @@
     <addData>
       <data name="http://www.3s-software.com/plcopenxml/projectinformation" handleUnknown="implementation">
         <ProjectInformation>
-          <property name="Author" type="string">3S - Smart Software Solutions GmbH</property>
+          <property name="Author" type="string">Piotr Gliszczyński</property>
           <property name="AutoResolveUnbound" type="boolean">true</property>
-          <property name="Company" type="string">3S - Smart Software Solutions GmbH</property>
+          <property name="Company" type="string">Induprogress sp. z o.o</property>
           <property name="CompiledLibraryCompatibilityVersion" type="string">DIADesigner-AX 1.3</property>
-          <property name="DefaultNamespace" type="string">TMP</property>
-          <property name="Description" type="string">Library project template with all possible element types, docu and a sample project structure</property>
+          <property name="DefaultNamespace" type="string">A2Lib</property>
+          <property name="Description" type="string">Library for using A2 via CiA402. For now enum for error codes processing is available. </property>
           <property name="DocFormat" type="string">reStructuredText</property>
           <property name="IsEndUserLibrary" type="boolean">false</property>
           <property name="LanguageModelAttribute" type="string">qualified-access-only</property>
@@ -30,7 +30,7 @@
           <property name="Project" type="string">AX_BibliotekaA2</property>
           <property name="Released" type="boolean">false</property>
           <property name="SourceLibrary" type="boolean">false</property>
-          <property name="Title" type="string">CODEYS Common Library Template</property>
+          <property name="Title" type="string">A2ServodriveLibrary</property>
           <property name="Version" type="version">3.5.15.30</property>
           <property name="library-category-list" type="library-category-list" />
         </ProjectInformation>
