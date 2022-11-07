@@ -1,4 +1,4 @@
-# A2LibraryForAX
+# Delta Electronics library for AX PLCs and Motion Controllers
 Library for using with A2 via CiA402. For now contains enum for converting error codes read form servodrives to messages. Message contains - error info from manual and errorcode.
 
 ![obraz](https://user-images.githubusercontent.com/109360131/197764592-d1880a21-c5f3-4f71-b352-4ae9b6315341.png)
