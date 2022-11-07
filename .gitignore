@@ -1,0 +1,6 @@
+#CODESYS#
+*.opt
+*.tgs
+*.~u
+AX_BibliotekaA2.library
+AX_BibliotekaA2.xml
